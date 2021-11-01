@@ -1,12 +1,6 @@
 #------------------------------
-#Name:    Kamlesh Patel
+#Name:    Animesh Patel
 #Date:    Feb-25, 2021
-#Project: ABC-123
-#Output:  Volcano Plot Using R   
-#Tools:   R Studio | R version 4.0.1 (2020-06-06)
-#Package: tidyverse
-#Goal: Create Volcano Plot using R Base and 
-#      tidyverse
 #-----------------------------
 ##############################
 # Step: 0 - Load libraries
@@ -19,13 +13,13 @@ library("epitools", warn.conflicts = FALSE, quietly = TRUE)
 # Step: 1 - Get Data into R
 ##############################
 #Set working Directory
-#setwd("F:/Kamlesh/Learning/R/R_Working_Directory")
-adae <- read.csv(file = "D:/Kamlesh/SAS Paper Writing/PhuseConnect 2022/VolcanoPlotSample.csv", 
+#setwd("F:/Animesh/Learning/R/R_Working_Directory")
+adae <- read.csv(file = "D:/Animesh/SAS Paper Writing/PhuseConnect 2022/VolcanoPlotSample.csv", 
                  fileEncoding="UTF-8-BOM", 
                  blank.lines.skip = TRUE,
                  header = TRUE)
 
-adae <- read.csv(file = "D:/Kamlesh/SAS Paper Writing/PhuseConnect 2022/adae2.csv", 
+adae <- read.csv(file = "D:/Animesh/SAS Paper Writing/PhuseConnect 2022/adae2.csv", 
                  fileEncoding="UTF-8-BOM", 
                  blank.lines.skip = TRUE,
                  skipNul = TRUE,
