@@ -16,7 +16,7 @@ library("epitools", warn.conflicts = FALSE, quietly = TRUE)
 #setwd("F:/Animesh/Learning/R/R_Working_Directory")
 adae <- read.csv(file = "D:/Animesh/SAS Paper Writing/PhuseConnect 2022/VolcanoPlotSample.csv", 
                  fileEncoding="UTF-8-BOM", 
-                 blank.lines.skip = TRUE,
+                 blank.lines.skip = TRUE, 
                  header = TRUE)
 
 adae <- read.csv(file = "D:/Animesh/SAS Paper Writing/PhuseConnect 2022/adae2.csv", 
